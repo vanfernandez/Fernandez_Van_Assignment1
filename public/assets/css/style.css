@@ -1,0 +1,38 @@
+.highlight {
+  color: red;
+  font-weight: bold;
+  background: lightgreen;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+/* Yellow dot between nav items */
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: gold;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Override Bootstrap primary color for purple buttons */
+.btn-primary {
+  background-color: #7b4efc;
+  border-color: #7b4efc;
+}
+
+.btn-primary:hover {
+  background-color: #6c3efb;
+  border-color: #6c3efb;
+}
+
+/* Adjust navbar brand spacing on mobile */
+@media (max-width: 991px) {
+  .navbar-brand {
+    margin-left: auto;
+  }
+
+  .btn-primary.d-none.d-lg-block {
+    display: none !important;
+  }
+}
