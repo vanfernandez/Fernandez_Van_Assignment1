@@ -150,6 +150,7 @@ body {
   margin-right: 8px;
 }
 
+
 /* Add these new responsive footer styles */
 @media (max-width: 767px) {
   .footer-section {
